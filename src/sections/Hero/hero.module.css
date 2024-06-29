@@ -89,7 +89,7 @@ nav {
         transform: translateY(-20px);
     }
 }
-img{
+.me{
     opacity: 0;
     transform: translateY(25px);
     animation: fadeInTop 2s forwards;
