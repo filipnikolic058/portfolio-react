@@ -4,6 +4,8 @@ import Slider from "react-slick";
 import SlideItem from '../SlideItem/SlideItem';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { useEffect, useRef, useState } from 'react';
+import Observe from '../../Functions/Observer';
 
 export default function Tools() {
     let settings = {
@@ -15,12 +17,18 @@ export default function Tools() {
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />
     };
+    const [isVisible, setisVisible] = useState(false);
+    const ref = useRef(null);
+
+    useEffect(() => {
+        Observe(ref, setisVisible);
+    }, []);
 
     return (
         <>
             <div className='container'>
                 <Title isH3={true} text="Tools I use" />
-                <div className={styles.sliderWrapper}>
+                <div ref={ref} className={`${styles.sliderWrapper} ${isVisible ? styles.visible : ''}`}>
                     <Slider {...settings}>
                         <SlideItem imgUrl='/vscode.png' heading='VSCode' text='Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum' />
                         <SlideItem imgUrl='/git.png' heading='Git' text='Lorem Ipsum' />
