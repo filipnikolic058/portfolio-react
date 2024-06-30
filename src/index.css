@@ -33,12 +33,22 @@ h2{
 .section-title{
   font-size: 35px;
   text-align: center;
+
+  opacity: 0;
+  transition: 2s opacity ease;
 }
 .section-subtitle{
   font-size: 30px;
   text-align: center;
   margin-top: 60px;
+  
+  opacity: 0;
+  transition: 2s opacity ease;
 }
+.title-visible{
+  opacity: 1;
+}
+
 p{
   font-size: 20px;
 }

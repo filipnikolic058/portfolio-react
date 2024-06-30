@@ -1,0 +1,16 @@
+.card{
+    background-color: #4C008B;
+    border-radius: 30px;
+    display: block;
+    padding: 30px 60px;
+    margin-top: 80px;
+
+    transform: translateY(100px);
+    opacity: 0;
+    transition: transform 1.5s ease, opacity 2s ease;
+}
+
+.visible{
+    transform: translateY(0);
+    opacity: 1;
+}
