@@ -1,5 +1,6 @@
 import ProgLangs from '../../Components/ProgLangs/ProgLangs';
 import Technologies from '../../Components/Technologies/Technologies';
+import Tools from '../../Components/Tools/Tools';
 import styles from './skills.module.css'
 
 export default function Skills() {
@@ -9,6 +10,7 @@ export default function Skills() {
             <section className={`section ${styles.background}`}>
                 <ProgLangs />
                 <Technologies />
+                <Tools />
             </section>
         </>
     )

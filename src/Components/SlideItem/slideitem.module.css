@@ -1,0 +1,20 @@
+.slidewrapper{
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.img{
+    max-width: 270px;
+    max-height: 270px;
+}
+.sliderHeading{
+    font-size: 25px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.paragraph{
+    text-align: center;
+}

@@ -7,7 +7,7 @@ export default function Technologies(){
     return (
         <>
             <div className='section container'>
-                <Title text = "Technologies I use"/>
+                <Title isH3={true} text = "Technologies I use"/>
                 <div className={styles.grid}>
                     <TechCard imgUrl = '/react.png' heading = 'React' text = 'Lorem ipsum'/>
                     <TechCard imgUrl = '/nodejs.png' heading = 'NodeJS' text = 'Lorem ipsum'/>
