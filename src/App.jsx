@@ -1,6 +1,7 @@
 import Hero from './sections/Hero/Hero'
 import Skills from './sections/Skills/Skills'
 import Education from './sections/Education/Education'
+import Footer from './sections/Footer/Footer'
 
 export default function App() {
 
@@ -8,5 +9,6 @@ export default function App() {
     <Hero />
     <Skills/>
     <Education/>
+    <Footer />
   </>)
 }
