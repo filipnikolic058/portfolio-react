@@ -27,7 +27,7 @@ h2{
   padding: 80px 0;
 }
 .container{
-  width: 1500px;
+  max-width: 1500px;
   margin: 0 auto;
 }
 .section-title{
@@ -51,4 +51,13 @@ h2{
 
 p{
   font-size: 20px;
+}
+
+@media only screen and (max-width : 1200px) {
+  .section-title{
+    font-size: 32px;
+  }
+  .container{
+    max-width: 900px;
+  }
 }

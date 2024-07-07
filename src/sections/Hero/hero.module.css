@@ -32,6 +32,7 @@ nav {
     font-size: 65px;
     margin: 0 0 0 150px;
     height: 95px;
+    z-index: 999999;
 }
 
 .circle{
@@ -41,7 +42,7 @@ nav {
     background-color: #4C008B;
     position: absolute;
     top: 550px;
-    left: 250px;
+    left: 13%;
     
     opacity: 0;
     transform: translateY(100px);
@@ -51,29 +52,29 @@ nav {
     height: 360px;
     width: 360px;
     border-radius: 360px;
-    left: 400px;
+    left: 21%;
     top: 100px;
 }
 .circle:nth-child(4){
     height: 160px;
     width: 160px;
     border-radius: 160px;
-    left: 900px;
+    left: 50%;
     top: 490px;
 }
 .circle:nth-child(5){
     height: 240px;
     width: 240px;
     border-radius: 240px;
-    left: 1300px;
+    left: 70%;
     top: 180px;
 }
 .circle:nth-child(6){
     height: 80px;
     width: 80px;
     border-radius: 80px;
-    left: 1550px;
-    top: 500;
+    left: 83%;
+    top: 500px;
 }
 @keyframes fadeInTop {
     to {
@@ -93,9 +94,26 @@ nav {
     opacity: 0;
     transform: translateY(25px);
     animation: fadeInTop 2s forwards;
+    z-index: 999999
 }
 h1{
     opacity: 0;
     transform: translateY(50px);
     animation: fadeInTop 2s forwards;
+}
+@media only screen and (max-width : 1200px) {
+    .heroWrapper{
+        margin: 170px;
+    }
+    .me{
+        max-width: 250px;
+    }
+    .heroHeader{
+        font-size: 55px;
+        line-height: 83px;
+        margin: 0 0 0 100px
+    }
+    .linkBlock h2{
+        font-size: 20px;
+    }
 }

@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 100px;
+    padding: 0 50px;
 
     opacity: 0;
     transform: translateX(-100px);
@@ -19,7 +19,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 100px;
+    padding: 0 50px;
 
     opacity: 0;
     transform: translateX(100px);
@@ -31,4 +31,10 @@
 .visible{
     opacity: 1;
     transform: translateX(0);
+}
+
+@media only screen and (max-width : 1200px){
+    .columns img{
+        max-width: 280px;
+    }
 }

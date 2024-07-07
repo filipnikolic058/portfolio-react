@@ -3,8 +3,8 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    height: 250px;
-    width: 960px;
+    max-height: 250px;
+    max-width: 960px;
     margin-top: 80px;
     display: flex;
     align-items: center;
@@ -37,4 +37,16 @@
 }
 .visible{
     animation: fadeInFromLeft 1s ease forwards;
+}
+@media only screen and (max-width : 1200px) {
+    .card{
+        max-height: 200px;
+        max-width: 770px;
+    }
+    .column1 img{
+        max-width: 150px;
+    }
+    .column2 p{
+        font-size: 18px;
+    }
 }

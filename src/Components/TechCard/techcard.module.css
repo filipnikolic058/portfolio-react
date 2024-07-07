@@ -14,3 +14,9 @@
     transform: translateY(0);
     opacity: 1;
 }
+@media only screen and (max-width : 1200px){
+    .card img{
+        max-width: 220px;
+        margin-bottom: 40px;
+    }
+}

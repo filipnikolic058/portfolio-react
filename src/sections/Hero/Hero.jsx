@@ -41,7 +41,7 @@ export default function Hero() {
                 </div>
             </nav>
             <div className={styles.heroWrapper}>
-                <img className={styles.me} style={{ zIndex: 999999 }} src="/me.png" alt="" />
+                <img className={styles.me} src="/me.png" alt="" />
                 <h1 className={styles.heroHeader}>{headerText}</h1>
             </div>
             <div className={styles.circle}></div>

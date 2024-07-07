@@ -46,7 +46,7 @@ function SampleNextArrow(props) {
     return (
         <img src="/arrowright.svg" alt=""
             className={className}
-            style={{ ...style, width: '32px', height: '32px' }}
+            style={{ ...style, right: 0, width: '32px', height: '32px' }}
             onClick={onClick}
         />
     );
@@ -57,7 +57,7 @@ function SamplePrevArrow(props) {
     return (
         <img src="/arrow.svg" alt=""
             className={className}
-            style={{ ...style, width: '32px', height: '32px' }}
+            style={{ ...style, left: 0, width: '32px', height: '32px' }}
             onClick={onClick}
         />
     );
