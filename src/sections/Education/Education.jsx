@@ -5,7 +5,7 @@ export default function Education() {
 
     return (
         <>
-            <section className={`section ${styles.background}`}>
+            <section id='education' className={`section ${styles.background}`}>
                 <div className='container'>
                     <Columns
                         heading='My Experience'

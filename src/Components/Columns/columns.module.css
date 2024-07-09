@@ -37,4 +37,13 @@
     .columns img{
         max-width: 280px;
     }
+    .column1{
+        transform: translateX(-25px);
+    }
+    .column2{
+        transform: translateX(25px);
+    }
+    .visible{
+        transform: translateX(0);
+    }
 }

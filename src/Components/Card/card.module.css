@@ -49,4 +49,10 @@
     .column2 p{
         font-size: 18px;
     }
+    .card{
+        transform: translateX(10px);
+    }
+    .card:nth-child(even){
+        transform: translateX(-10px);
+    }
 }

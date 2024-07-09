@@ -12,7 +12,7 @@ export default function Footer(){
 
     return (
         <>
-            <footer className={`section ${styles.background}`}>
+            <footer id='contact' className={`section ${styles.background}`}>
                 <div className='container'>
                     <div ref={ref} className={`${styles.columns} ${isVisible ? styles.visible : ''}`}>
                         <div className={styles.column1}>

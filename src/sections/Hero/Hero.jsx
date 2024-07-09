@@ -24,19 +24,19 @@ export default function Hero() {
         <section className={styles.heroBackground}>
             <nav>
                 <div className={styles.linkBlock}>
-                    <a href=""><h2>Skills</h2></a>
+                    <a href="#skills"><h2>Skills</h2></a>
                     <div className={styles.underline}></div>
                 </div>
                 <div className={styles.linkBlock}>
-                    <a href=""><h2>Experience</h2></a>
+                    <a href="#education"><h2>Experience</h2></a>
                     <div className={styles.underline}></div>
                 </div>
                 <div className={styles.linkBlock}>
-                    <a href=""><h2>Education</h2></a>
+                    <a href="#education"><h2>Education</h2></a>
                     <div className={styles.underline}></div>
                 </div>
                 <div className={styles.linkBlock}>
-                    <a href=""><h2>Contact me</h2></a>
+                    <a href="#contact"><h2>Contact me</h2></a>
                     <div className={styles.underline}></div>
                 </div>
             </nav>

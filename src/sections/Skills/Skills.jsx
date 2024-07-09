@@ -7,7 +7,7 @@ export default function Skills() {
 
     return (
         <>
-            <section className={`section ${styles.background}`}>
+            <section id='skills' className={`section ${styles.background}`}>
                 <ProgLangs />
                 <Technologies />
                 <Tools />
