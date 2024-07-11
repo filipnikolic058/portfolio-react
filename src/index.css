@@ -64,3 +64,14 @@ p{
     max-width: 900px;
   }
 }
+@media only screen and (max-width : 990px) {
+  .section-title{
+    font-size: 27px;
+  }
+  .section-subtitle{
+    font-size: 24px;
+  }
+  .container{
+    max-width: 700px;
+  }
+}

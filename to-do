@@ -1,8 +1,10 @@
 - responsive 1200px, 990px, 780px, 480px
-    krenuti na 780px - 990px
+    navbar
 
 - popraviti animacije za footer linkove
 
 - napraviti animacije za hover nad krugovima
 
 - cleanup praznih css fajlova
+
+- background sekcija da bude svg
