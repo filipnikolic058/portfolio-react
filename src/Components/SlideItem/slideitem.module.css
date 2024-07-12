@@ -18,3 +18,10 @@
 .paragraph{
     text-align: center;
 }
+
+@media only screen and (max-width : 990px){
+    .img{
+        max-width: 200px;
+        max-height: 200px;
+    }
+}

@@ -46,3 +46,12 @@
 .footerLinkBlock h3:hover{
     color: #d427ff85;
 }
+
+@media only screen and (max-width : 990px){
+    .column1{
+        padding: 40px;
+    }
+    .column2{
+        padding: 40px;
+    }
+}

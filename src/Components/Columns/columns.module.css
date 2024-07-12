@@ -47,3 +47,11 @@
         transform: translateX(0);
     }
 }
+@media only screen and (max-width : 990px){
+    .column1{
+        padding: 0 20px;
+    }
+    .column2{
+        padding: 0 20px;
+    }
+}
