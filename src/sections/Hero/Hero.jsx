@@ -1,3 +1,4 @@
+import Navbar from '../../Components/Navbar/Navbar';
 import styles from './hero.module.css';
 import { useState, useEffect } from 'react';
 
@@ -22,24 +23,7 @@ export default function Hero() {
 
     return (
         <section className={styles.heroBackground}>
-            <nav>
-                <div className={styles.linkBlock}>
-                    <a href="#skills"><h2>Skills</h2></a>
-                    <div className={styles.underline}></div>
-                </div>
-                <div className={styles.linkBlock}>
-                    <a href="#education"><h2>Experience</h2></a>
-                    <div className={styles.underline}></div>
-                </div>
-                <div className={styles.linkBlock}>
-                    <a href="#education"><h2>Education</h2></a>
-                    <div className={styles.underline}></div>
-                </div>
-                <div className={styles.linkBlock}>
-                    <a href="#contact"><h2>Contact me</h2></a>
-                    <div className={styles.underline}></div>
-                </div>
-            </nav>
+            <Navbar />
             <div className={styles.heroWrapper}>
                 <img className={styles.me} src="/me.png" alt="" />
                 <h1 className={styles.heroHeader}>{headerText}</h1>
