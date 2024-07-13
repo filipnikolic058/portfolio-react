@@ -22,7 +22,6 @@
     display: none;
     justify-content: flex-end;
     position: relative;
-    padding: 20px;
 }
 
 .navDropdown{
@@ -58,5 +57,11 @@
     .navList{
         flex-direction: column;
         justify-content: center;
+    }
+    .linkBlock a{
+        text-align: center;
+    }
+    .menuIconWrapper{
+        margin: 20px;
     }
 }

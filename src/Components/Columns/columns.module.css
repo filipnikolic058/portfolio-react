@@ -55,3 +55,12 @@
         padding: 0 20px;
     }
 }
+@media only screen and (max-width : 780px){
+    .columns{
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .column2{
+        margin-bottom: 20px;
+    }
+}

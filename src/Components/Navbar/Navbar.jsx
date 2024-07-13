@@ -40,7 +40,7 @@ export default function Navbar() {
                     </ul>
                 </div>
                 <div className={styles.navMobile}>
-                    <div onClick={handleIsOpen}><img className={styles.menuIcon} src="/menu.png" alt="" /></div>
+                    <div className={styles.menuIconWrapper} onClick={handleIsOpen}><img className={styles.menuIcon} src="/menu.png" alt="" /></div>
                     <div className={`${styles.navDropdown} ${isOpen ? styles.active : ''}`}>
                         <ul className={styles.navList}>
                             <li>
