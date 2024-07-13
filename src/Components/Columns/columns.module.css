@@ -54,13 +54,26 @@
     .column2{
         padding: 0 20px;
     }
+    .visible{
+        transform: translateX(0);
+    }
 }
 @media only screen and (max-width : 780px){
     .columns{
         align-items: center;
         flex-direction: column-reverse;
     }
+    .column1{
+        transform: translateX(-10px);
+    }
     .column2{
+        transform: translateX(10px);
         margin-bottom: 20px;
+    }
+    .columns img{
+        max-width: 230px;
+    }
+    .visible{
+        transform: translateX(0);
     }
 }
