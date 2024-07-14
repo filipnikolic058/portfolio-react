@@ -44,7 +44,7 @@ export default function Tools() {
 function SampleNextArrow(props) {
     const { className, style, onClick } = props
     return (
-        <img src="/arrowright.svg" alt=""
+        <img src="./arrowright.svg" alt=""
             className={className}
             style={{ ...style, right: 0, width: '32px', height: '32px' }}
             onClick={onClick}
@@ -55,7 +55,7 @@ function SampleNextArrow(props) {
 function SamplePrevArrow(props) {
     const { className, style, onClick } = props;
     return (
-        <img src="/arrow.svg" alt=""
+        <img src="./arrow.svg" alt=""
             className={className}
             style={{ ...style, left: 0, width: '32px', height: '32px' }}
             onClick={onClick}
