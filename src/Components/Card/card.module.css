@@ -8,6 +8,7 @@
     margin-top: 80px;
     display: flex;
     align-items: center;
+    justify-content: center;
     
     opacity: 0;
     transform: translateX(-50px);
@@ -77,5 +78,29 @@
     }
     .columns{
         padding: 20px 50px;
+        max-width: 400px;
+    }
+}
+@media only screen and (max-width : 480px) {
+    .columns{
+        max-height: 80px;
+        padding: 10px 30px;
+    }
+    .column1 img{
+        max-width: 70px;
+    }
+    .column1{
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+    }
+    .column2 p{
+        font-size: 10px;
+    }
+    .column2{
+        padding-left: 10px;
+    }
+    .card{
+        margin-top: 40px;
     }
 }

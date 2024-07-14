@@ -101,3 +101,17 @@ p {
     font-size: 17px;
   }
 }
+@media only screen and (max-width : 480px) {
+  .section-title{
+    font-size: 15px;
+  }
+  .section-subtitle{
+    font-size: 12px;
+  }
+  .slick-arrow{
+    max-width: 20px;
+  }
+  .section{
+    padding: 40px 0;
+  }
+}

@@ -1,11 +1,38 @@
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import styles from './navbar.module.css'
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
+    const [fade, setFade] = useState(styles.fadeIn);
+    const buttonRef = useRef(null);
 
-    function handleIsOpen(){
-        setIsOpen(!isOpen);
+    useEffect(() => {
+        document.addEventListener('click', closeNav);
+        return () => {
+            document.removeEventListener('click', closeNav);
+        }
+    }, []);
+
+    function closeNav(event) {
+        if (buttonRef.current && !buttonRef.current.contains(event.target)) {
+            setFade(styles.fadeOut);
+            setTimeout(() => {
+                setIsOpen(false);
+            }, 600);
+        }
+    }
+
+    function handleIsOpen() {
+        if (isOpen) {
+            setFade(styles.fadeOut);
+            setTimeout(() => {
+                setIsOpen(!isOpen);
+            }, 600);
+        }
+        else {
+            setFade(styles.fadeIn);
+            setIsOpen(!isOpen);
+        }
     }
 
     return (
@@ -40,8 +67,8 @@ export default function Navbar() {
                     </ul>
                 </div>
                 <div className={styles.navMobile}>
-                    <div className={styles.menuIconWrapper} onClick={handleIsOpen}><img className={styles.menuIcon} src="/menu.png" alt="" /></div>
-                    <div className={`${styles.navDropdown} ${isOpen ? styles.active : ''}`}>
+                    <div ref={buttonRef} className={styles.menuIconWrapper} onClick={handleIsOpen}><img className={styles.menuIcon} src="/menu.png" alt="" /></div>
+                    <div className={`${styles.navDropdown} ${isOpen ? styles.active : ''} ${fade}`}>
                         <ul className={styles.navList}>
                             <li>
                                 <div className={styles.linkBlock}>

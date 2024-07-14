@@ -199,3 +199,49 @@ h1{
         top: 290px;
     }
 }
+@media only screen and (max-width : 480px) {
+    .heroWrapper{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .heroHeader{
+        margin: 30px 0 0 0;
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .circle:nth-child(3){
+        height: 140px;
+        width: 140px;
+        border-radius: 140px;
+        left: 10%;
+        top: 70px;
+    }
+    .circle:nth-child(4){
+        height: 100px;
+        width: 100px;
+        border-radius: 100px;
+        left: 50%;
+        top: 340px;
+    }
+    .circle:nth-child(5){
+        height: 110px;
+        width: 110px;
+        border-radius: 110px;
+        left: 60%;
+        top: 120px;
+    }
+    .circle:nth-child(6){
+        height: 35px;
+        width: 35px;
+        border-radius: 35px;
+        left: 83%;
+        top: 350px;
+    }
+    .circle:nth-child(7){
+        height: 100px;
+        width: 100px;
+        border-radius: 100px;
+        left: 8%;
+        top: 290px;
+    }
+}
