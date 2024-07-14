@@ -25,7 +25,7 @@ export default function Hero() {
         <section className={styles.heroBackground}>
             <Navbar />
             <div className={styles.heroWrapper}>
-                <img className={styles.me} src="/me.png" alt="" />
+                <img className={styles.me} src="./me.png" alt="" />
                 <h1 className={styles.heroHeader}>{headerText}</h1>
             </div>
             <div className={styles.circle}></div>
