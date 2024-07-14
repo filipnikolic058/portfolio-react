@@ -85,6 +85,7 @@
     .columns{
         max-height: 80px;
         padding: 10px 30px;
+        max-width: 280px;
     }
     .column1 img{
         max-width: 70px;
