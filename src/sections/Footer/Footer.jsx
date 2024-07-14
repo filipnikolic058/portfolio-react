@@ -21,15 +21,15 @@ export default function Footer(){
                         </div>
                         <div className={styles.column2}>
                             <a href='https://www.linkedin.com/in/filip-nikolic-1968b4287/' target='_blank'  className={styles.footerLinkBlock}>
-                                <img src="/linkedin.png" alt="" />
+                                <img src="./linkedin.png" alt="" />
                                 <h3>Filip Nikolic</h3>
                             </a>
                             <a href='mailto:hello@filipn.me' target='_blank' className={styles.footerLinkBlock}>
-                                <img src="/mail.png" alt="" />
+                                <img src="./mail.png" alt="" />
                                 <h3>hello@filipn.me</h3>
                             </a>
                             <a href='https://github.com/filipnikolic058/' target='_blank' className={styles.footerLinkBlock}>
-                                <img src="/github.png" alt="" />
+                                <img src="./github.png" alt="" />
                                 <h3>filipnikolic058</h3>
                             </a>
                         </div>

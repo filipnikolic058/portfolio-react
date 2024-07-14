@@ -30,10 +30,10 @@ export default function Tools() {
                 <Title isH3={true} text="Tools I use" />
                 <div ref={ref} className={`${styles.sliderWrapper} ${isVisible ? styles.visible : ''}`}>
                     <Slider {...settings}>
-                        <SlideItem imgUrl='/vscode.png' heading='VSCode' text='Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum' />
-                        <SlideItem imgUrl='/git.png' heading='Git' text='Lorem Ipsum' />
-                        <SlideItem imgUrl='/figma.png' heading='Figma' text='Lorem Ipsum' />
-                        <SlideItem imgUrl='/webflow.png' heading='Webflow' text='Lorem Ipsum' />
+                        <SlideItem imgUrl='./vscode.png' heading='VSCode' text='Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum' />
+                        <SlideItem imgUrl='./git.png' heading='Git' text='Lorem Ipsum' />
+                        <SlideItem imgUrl='./figma.png' heading='Figma' text='Lorem Ipsum' />
+                        <SlideItem imgUrl='./webflow.png' heading='Webflow' text='Lorem Ipsum' />
                     </Slider>
                 </div>
             </div>
