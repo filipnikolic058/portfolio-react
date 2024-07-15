@@ -156,6 +156,7 @@ h1{
         font-size: 35px;
         line-height: 50px;
         margin-left: 50px;
+        max-height: 50px;
     }
     .heroWrapper{
         margin: 70px;

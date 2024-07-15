@@ -60,7 +60,6 @@
 @media only screen and (max-width : 990px){
     .card{
         max-height: 160px;
-        max-width: auto;
     }
     .column1{
         margin-left: 30px;
@@ -71,6 +70,12 @@
     .column2 p{
         font-size: 14px;
     }
+    .card{
+        transform: translateX(5px);
+    }
+    .card:nth-child(even){
+        transform: translateX(-5px);
+    }
 }
 @media only screen and (max-width : 780px){
     .column1 img{
@@ -79,6 +84,13 @@
     .columns{
         padding: 20px 50px;
         max-width: 400px;
+    }
+    .card{
+        max-width: 500px;
+        transform: translateX(0);
+    }
+    .card:nth-child(even){
+        transform: translateX(0);
     }
 }
 @media only screen and (max-width : 480px) {
