@@ -63,6 +63,7 @@ h2 {
 
 p {
   font-size: 20px;
+  line-height: 30px;
 }
 
 @media only screen and (max-width : 1200px) {
@@ -90,6 +91,7 @@ p {
 
   p {
     font-size: 17px;
+    line-height: 23px;
   }
 }
 
@@ -116,5 +118,9 @@ p {
   }
   .section{
     padding: 40px 0;
+  }
+  p{
+    font-size: 10px;
+    line-height: 15px;
   }
 }
