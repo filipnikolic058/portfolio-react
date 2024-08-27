@@ -60,6 +60,12 @@ export default function Navbar() {
                         </li>
                         <li>
                             <div className={styles.linkBlock}>
+                                <a href="#my-work"><h2>My Work</h2></a>
+                                <div className={styles.underline}></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div className={styles.linkBlock}>
                                 <a href="#contact"><h2>Contact me</h2></a>
                                 <div className={styles.underline}></div>
                             </div>
@@ -85,6 +91,12 @@ export default function Navbar() {
                             <li>
                                 <div className={styles.linkBlock}>
                                     <a href="#education"><h2>Education</h2></a>
+                                    <div className={styles.underline}></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div className={styles.linkBlock}>
+                                    <a href="#my-work"><h2>My Work</h2></a>
                                     <div className={styles.underline}></div>
                                 </div>
                             </li>
