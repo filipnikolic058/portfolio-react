@@ -9,12 +9,12 @@ export default function Education() {
                 <div className='container'>
                     <Columns
                         heading='My Experience'
-                        text='I have experience in creating custom websites using Webflow, as well as managing existing ones. My React experience is currently based on personal projects.' 
+                        text='I have experience in creating custom websites using Webflow, as well as managing existing ones. My React experience is currently based on personal projects, and real world projects that I have particapated in as a freelancer.' 
                         imgUrl='./experience.png'
                         reverse={false}/>
                     <Columns
                         heading='Education'
-                        text='I have just graduated from an IT High School and secured myself a place at Union University in Belgrade, School of Computing, Software engineering studies. My current knowledge mostly comes from personal projects and online courses (mostly from Youtube).' 
+                        text='I have graduated from an IT High School and I am currently studying Software engineering at Union University in Belgrade, School of Computing. My current knowledge comes from personal projects, online courses (mostly from Youtube), and, mostly, from real world projects that I particapated in.' 
                         imgUrl='./education.png'
                         reverse={true}/>
                 </div>
