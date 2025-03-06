@@ -10,7 +10,7 @@ export default function MojServis() {
 }
 
 export function MojServisDeleteAccount() {
-    const [language, setLanguage] = useState(true);
+    const [language, setLanguage] = useState(false);
 
     return (
         <div
@@ -78,30 +78,31 @@ export function MojServisPrivacyPolicy() {
                     </div>
                     <h1 className={styles.title}>Privacy Policy</h1>
                     <p className={styles.intro}>
-                        Your privacy is important to us. This privacy policy outlines how we collect, use, and protect your email address.
+                        Your privacy is important to us. This privacy policy outlines how we collect, use, and protect your email address and personal photos (that you provide if you want to).
                     </p>
                     <section className={styles.section}>
                         <h2 className={styles.subheading}>Information We Collect</h2>
                         <p>
-                            We only collect your email address when you register or sign in to our app. This is the only personal information we collect.
+                            We only collect your email address and photos that you provide (if you want to) when you register or sign in to our app. This is the only personal information we collect.
                         </p>
                     </section>
                     <section className={styles.section}>
                         <h2 className={styles.subheading}>How We Use Your Information</h2>
                         <p>
                             Your email address is used exclusively for the purpose of account management, communication, and notifications related to the app.
+                            Your photos are used as a feature for the app.
                         </p>
                     </section>
                     <section className={styles.section}>
                         <h2 className={styles.subheading}>How We Protect Your Information</h2>
                         <p>
-                            We take reasonable security measures to protect your email address and ensure it is stored safely. Your email will never be shared with third parties without your consent.
+                            We take reasonable security measures to protect your email address and photos and ensure it is stored safely. Your email and photos will never be shared with third parties without your consent.
                         </p>
                     </section>
                     <section className={styles.section}>
                         <h2 className={styles.subheading}>Your Rights</h2>
                         <p>
-                            You can contact us at any time to update, delete, or request information regarding your email address.
+                            You can contact us at any time to update, delete, or request information regarding your email address or photos.
                         </p>
                     </section>
                     <footer className={styles.footer}>
@@ -118,30 +119,31 @@ export function MojServisPrivacyPolicy() {
                     </div>
                     <h1 className={styles.title}>Politika privatnosti</h1>
                     <p className={styles.intro}>
-                        Vaša privatnost nam je važna. Ova politika privatnosti objašnjava kako prikupljamo, koristimo i štitimo vašu email adresu.
+                        Vaša privatnost nam je važna. Ova politika privatnosti objašnjava kako prikupljamo, koristimo i štitimo vašu email adresu i slike.
                     </p>
                     <section className={styles.section}>
                         <h2 className={styles.subheading}>Informacije koje prikupljamo</h2>
                         <p>
-                            Prikupljamo samo vašu email adresu kada se registrujete ili prijavite na našu aplikaciju. Ovo je jedini lični podatak koji prikupljamo.
+                            Prikupljamo samo vašu email adresu i slike koje sami ubacujete (ako želite) kada se registrujete ili prijavite na našu aplikaciju. Ovo je jedini lični podatak koji prikupljamo.
                         </p>
                     </section>
                     <section className={styles.section}>
                         <h2 className={styles.subheading}>Kako koristimo vaše informacije</h2>
                         <p>
                             Vaša email adresa se koristi isključivo u svrhu upravljanja nalogom, komunikacije i obaveštenja vezanih za aplikaciju.
+                            Vaše slike se koriste samo kao funkcija aplikacije, niste u obavezi da dajete bilo kakve slike.
                         </p>
                     </section>
                     <section className={styles.section}>
                         <h2 className={styles.subheading}>Kako štitimo vaše informacije</h2>
                         <p>
-                            Preduzimamo odgovarajuće sigurnosne mere kako bismo zaštitili vašu email adresu i osigurali da bude sigurno pohranjena. Vaša email adresa neće biti podeljena sa trećim stranama bez vašeg pristanka.
+                            Preduzimamo odgovarajuće sigurnosne mere kako bismo zaštitili vašu email adresu i slike i osigurali da budu sigurno sačuvane. Vaša email adresa i slike nikada neće biti podeljene sa trećim stranama bez vašeg pristanka.
                         </p>
                     </section>
                     <section className={styles.section}>
                         <h2 className={styles.subheading}>Vaša prava</h2>
                         <p>
-                            Možete nas kontaktirati u bilo kom trenutku kako biste ažurirali, obrisali ili zatražili informacije u vezi sa vašom email adresom.
+                            Možete nas kontaktirati u bilo kom trenutku kako biste ažurirali, obrisali ili zatražili informacije u vezi sa vašom email adresom ili slikama.
                         </p>
                     </section>
                     <footer className={styles.footer}>
