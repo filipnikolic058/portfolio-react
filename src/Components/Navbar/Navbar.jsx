@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import { Link } from 'react-router-dom';
 import styles from './navbar.module.css'
 
 export default function Navbar() {
@@ -42,31 +43,31 @@ export default function Navbar() {
                     <ul className={styles.navList}>
                         <li>
                             <div className={styles.linkBlock}>
-                                <a href="#skills"><h2>Skills</h2></a>
+                                <Link to="#skills"><h2>Skills</h2></Link>
                                 <div className={styles.underline}></div>
                             </div>
                         </li>
                         <li>
                             <div className={styles.linkBlock}>
-                                <a href="#education"><h2>Experience</h2></a>
+                                <Link to="#education"><h2>Experience</h2></Link>
                                 <div className={styles.underline}></div>
                             </div>
                         </li>
                         <li>
                             <div className={styles.linkBlock}>
-                                <a href="#education"><h2>Education</h2></a>
+                                <Link to="#education"><h2>Education</h2></Link>
                                 <div className={styles.underline}></div>
                             </div>
                         </li>
                         <li>
                             <div className={styles.linkBlock}>
-                                <a href="#my-work"><h2>My Work</h2></a>
+                                <Link to="#my-work"><h2>My Work</h2></Link>
                                 <div className={styles.underline}></div>
                             </div>
                         </li>
                         <li>
                             <div className={styles.linkBlock}>
-                                <a href="#contact"><h2>Contact me</h2></a>
+                                <Link to="#contact"><h2>Contact me</h2></Link>
                                 <div className={styles.underline}></div>
                             </div>
                         </li>
