@@ -5,6 +5,7 @@ import Home from './Pages/Home';
 import Projects from './Pages/Projects';
 import ScrollToHashElement from './Functions/ScrollToHashElement';
 import './index.css';
+import { MojServisDeleteAccount, MojServisPrivacyPolicy } from './Pages/MojServis';
 
 const ErrorPage = () => {
   const navigate = useNavigate();
@@ -34,6 +35,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/mojservis/delete" element={<MojServisDeleteAccount />} />
+        <Route path="/mojservis/privacy-policy" element={<MojServisPrivacyPolicy />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </HashRouter>
