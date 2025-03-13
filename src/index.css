@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url("./assets/fonts/Montserrat-Medium.ttf") format("truetype");
+  font-weight: normal;
+}
+
 :root {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -66,7 +73,7 @@ p {
   line-height: 30px;
 }
 
-.main-button{
+.main-button {
   padding: 10px 20px;
   background-color: #4C008B;
   color: white;
@@ -76,7 +83,8 @@ p {
   display: inline-block;
   transition: transform 0.3s ease;
 }
-.main-button:hover{
+
+.main-button:hover {
   transform: translateY(-5px);
 }
 
@@ -110,30 +118,37 @@ p {
 }
 
 @media only screen and (max-width : 780px) {
-  .container{
+  .container {
     max-width: 600px;
   }
-  .section-title{
+
+  .section-title {
     font-size: 20px;
   }
+
   .section-subtitle {
     font-size: 17px;
   }
 }
+
 @media only screen and (max-width : 480px) {
-  .section-title{
+  .section-title {
     font-size: 15px;
   }
-  .section-subtitle{
+
+  .section-subtitle {
     font-size: 12px;
   }
-  .slick-arrow{
+
+  .slick-arrow {
     max-width: 20px;
   }
-  .section{
+
+  .section {
     padding: 40px 0;
   }
-  p{
+
+  p {
     font-size: 10px;
     line-height: 15px;
   }
