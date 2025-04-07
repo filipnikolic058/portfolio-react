@@ -17,6 +17,10 @@
     opacity: 1;
 }
 
+.card img{
+    max-width: 250px;
+}
+
 @media only screen and (max-width : 1200px) {
     .card {
         max-width: 300px;
@@ -52,7 +56,9 @@
     .card {
         margin-top: 40px;
         padding: 40px;
-        max-width: 200px;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .card img {
@@ -70,7 +76,7 @@
 }
 @media only screen and (max-width : 480px){
     .card{
-        max-width: 140px;
+        width: 80%;
     }
     .card img {
         max-width: 80px;

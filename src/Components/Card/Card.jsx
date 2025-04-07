@@ -15,7 +15,7 @@ export default function Card(props) {
             <div ref={ref} className={`${styles.card} ${isVisible ? styles.visible : ''}`}>
                 <div className={styles.columns}>
                     <div className={styles.column1}>
-                        <img src={props.imgUrl} alt="" />
+                        <img src={props.imgUrl} className={styles.img} alt="" />
                     </div>
                     <div className={styles.column2}>
                         <p>{props.text}</p>

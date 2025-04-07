@@ -9,7 +9,7 @@ export default function Education() {
                 <div className='container'>
                     <Columns
                         heading='My Experience'
-                        text='I have experience in creating custom websites using Webflow, as well as managing existing ones. My React experience is currently based on personal projects, and real world projects that I have particapated in as a freelancer.' 
+                        text='I have extensive experience in React development, building and optimizing dynamic web applications through freelance work. Additionally, I create custom websites using Webflow and manage existing ones to deliver seamless digital experiences.' 
                         imgUrl='./experience.png'
                         reverse={false}/>
                     <Columns

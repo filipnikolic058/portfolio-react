@@ -31,6 +31,7 @@ export default function Tools() {
                 <div ref={ref} className={`${styles.sliderWrapper} ${isVisible ? styles.visible : ''}`}>
                     <Slider {...settings}>
                         <SlideItem imgUrl='./vscode.png' heading='VSCode' text='As most developers, I am most comfortable with using VSCode. For me its the best because of easy source control and its many extensions.' />
+                        <SlideItem imgUrl='./tailwind.svg' heading='TailwindCSS' text='I prefer using Tailwind CSS for its utility-first approach, allowing me to quickly prototype responsive, custom designs while maintaining clean, maintainable code.' />
                         <SlideItem imgUrl='./git.png' heading='Git' text='I am familiar with basic Git concepts, merging, branching and conflict resolving. I write clear commit messages to make sure my pull requests are clear.' />
                         <SlideItem imgUrl='./figma.png' heading='Figma' text='Not much of a web designer, but I am proficient in using figma and creating fuctional and modern designs.' />
                         <SlideItem imgUrl='./webflow.png' heading='Webflow' text='When it comes to simple sites I love using Webflow. I have experience in managing, developing and designing sites from scratch using Webflow and Figma.' />

@@ -14,10 +14,14 @@
 }
 .sliderWrapper {
     flex: 1;
-    max-width: 500px;
+    width: 500px;
 }
 
 .slider {
+    width: 100%;
+}
+
+.image {
     width: 100%;
 }
 
@@ -36,7 +40,7 @@
 }
 
 .title {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -60,11 +64,14 @@
     .grid {
         margin: 40px auto;
     }
+    .sliderWrapper{
+        width: 400px;
+    }
 }
 
 @media only screen and (max-width : 480px) {
     .sliderWrapper{
-        max-width: 320px;
+        width: 320px;
     }
     .slide img {
         height: 300px;
