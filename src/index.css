@@ -50,6 +50,8 @@ h2 {
 .section-title {
   font-size: 35px;
   text-align: center;
+  z-index: 100;
+  position: relative;
 
   opacity: 0;
   transition: 2s opacity ease;
@@ -59,6 +61,7 @@ h2 {
   font-size: 30px;
   text-align: center;
   margin-top: 60px;
+  z-index: 100;
 
   opacity: 0;
   transition: 2s opacity ease;
